@@ -1,0 +1,37 @@
+										 	<---------------- REQUIREMENT 14 ------------------>
+
+This Project is implemented as per the Design Document made during the Project #3 OCD. 
+
+-----------------------------------------------------------------
+Some Changes are made 
+
+---------------------Request DLLs from Repository
+-> Repository will send notification to the test harness server in both cases, i.e. when repository has not found all requested files and also
+if it founds.
+-> Till this point the child thread excuting the test request these files will get to know whether files are found or not
+---------
+-> As per original design, the repository will send message only when it does not found all the required files.
+
+
+---------------------GUI
+-> Only a single GUI is made, due to time constraint but keeping in mind all requirements
+-----
+as per original design, a GUI for creating XML request was also there.
+
+
+
+--------------------Communication Channel
+A single communication interface is made which is used by all the 3, clients, test harness server and repository server
+
+
+Things Learnt--
+--> use of threads and locking
+--> WPF application usage
+--> maintaining concurrency accross different clients
+--> File Transfer
+
+
+
+
+
+
